@@ -42,3 +42,6 @@ function cab(name, type) {
             const data = await response.json();
             console.log(data);
         }
+        console.log("Before fetching data");
+        fetchData();
+        console.log("After fetching data"); 
